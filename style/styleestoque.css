@@ -65,14 +65,14 @@ main{
     height: 100%;
 }
 
-#novocadastro{
+#novoprod{
     
     color: #DFF6FF;
    
     
     
 }
-#novocadastro ul{
+#novoprod ul{
    
     background-color: #2D31FA;
     border-radius: 10px;
@@ -84,7 +84,7 @@ main{
     font-weight: 400;
     width: 100%;
 }
-#novocadastro ul input{
+#novoprod ul input{
 border-radius: 10px;
 border:none;
 width:142.8px ;
@@ -92,30 +92,31 @@ height:24px ;
 font-family: 'Nunito',sans-serif;
 
 }
-#novocadastro ul li{
+#novoprod ul li{
   padding: 10px;
   
 }
 
-#novocadastro form {
+#novoprod form {
     display: block;
     height: 100%;
     width:1004.5px ;
     
     
 }
-#novocadastro form h2{
+#novoprod form h2{
     margin: 12px;
     display: block;
     
 }
-#novocadastro form ul #save button{
+
+#novoprod form ul #save button{
     background-color: #DFF6FF;
     width:100px ;
     height: 24px;
     border-radius: 12px;
 }
-#novocadastro form ul #save button:hover{
+#novoprod form ul #save button:hover{
     background: linear-gradient(#fff,#051367);
     color: #DFF6FF;
     width:100px ;
@@ -147,31 +148,32 @@ table tr td{
     text-align: center;
 }
 
+
 /*dispositivos com width max de 375px*/
 @media(max-width:375px){
    
 
-    #novocadastro{
+    #novoprod{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    #novocadastro ul{
+    #novoprod ul{
         display: block;
         
         
     }
-    #novocadastro ul li{
+    #novoprod ul li{
         display: flex;
         justify-content: space-between;
       }
-      #novocadastro ul li p{
+      #novoprod ul li p{
           padding: 5px;
       }
-      #novocadastro form{
+      #novoprod form{
        width:350px; 
       }
-      #novocadastro form h2{
+      #novoprod form h2{
         padding: 10px;
         padding-bottom: -5px;
         display: block;
@@ -187,29 +189,29 @@ table tr td{
 /*dispositivos com width max de 1060px*/
 @media(max-width:1060px){
 
-    #novocadastro{
+    #novoprod{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    #novocadastro ul{
+    #novoprod ul{
         display: block;
         
     }
-    #novocadastro ul li{
+    #novoprod ul li{
         display: flex;
         justify-content: space-between;
       }
-      #novocadastro ul li p{
+      #novoprod ul li p{
           padding: 5px;
       }
-      #novocadastro form h2{
+      #novoprod form h2{
         padding: 10px;
         padding-bottom: -5px;
         display: block;
         
     }
-    #novocadastro form {
+    #novoprod form {
         width:616.9px;
         
     }
